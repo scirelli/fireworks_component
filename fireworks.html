@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Testing Fireworks</title>
+        <link rel="stylesheet" href="../css/fireworks.css">
+        <meta name="description" content="Page to see what the fireworks looks like.">
+
+        <link rel="icon" href="../images/favicon.ico" sizes="any">
+        <link rel="icon" href="../images/icon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="../images/icon.png">
+
+        <meta name="theme-color" content="#fafafa">
+
+        <script src="../js/fireworks.js"></script>
+    </head>
+    <body>
+        <firework-animation 
+            data-particle-count="100"
+            data-runtime="4"
+            repeat="true"
+            ></firework-animation>
+    </body>
+    <script>
+        document.querySelector('firework-animation').setAttribute('active', true);
+    </script>
+</html>
