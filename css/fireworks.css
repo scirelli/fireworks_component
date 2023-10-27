@@ -5,25 +5,12 @@ body {
     overflow:hidden;
 }
 
-.particle {
-    display: inline-block;
-    position: absolute;
-
-    width:  5px;
-    height: 5px;
-
-    border: 1px solid gray;
-    border-radius: 100%;
-
-    background-color:white;
-}
-
 firework-animation {
     display:inline-block;
     position: absolute;
 
     border-bottom:2px solid darkblue;
-    box-shadow: 0px 1px 0px 0px rgba(0, 0, 255, .2); 
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 255, .2);
 
     width:  320px;
     height: 224px;

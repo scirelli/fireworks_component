@@ -1,0 +1,12 @@
+.particle {
+    display: inline-block;
+    position: absolute;
+
+    width:  5px;
+    height: 5px;
+
+    border: 1px solid gray;
+    border-radius: 100%;
+
+    background-color:white;
+}
